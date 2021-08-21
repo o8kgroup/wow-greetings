@@ -1,0 +1,7 @@
+rabbitmq:
+  container_name: local-rabbit
+  image: rabbitmq:3-management
+  hostname: localhost
+  ports:
+    - "5672:5672"
+    - "15672:15672"
